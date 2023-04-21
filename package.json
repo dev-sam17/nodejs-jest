@@ -1,0 +1,25 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "nodejs jest testing practice project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "keywords": [
+    "test",
+    "jest",
+    "nodejs",
+    "express"
+  ],
+  "author": "dev_sam17",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "request-promise": "^4.2.6"
+  }
+}
